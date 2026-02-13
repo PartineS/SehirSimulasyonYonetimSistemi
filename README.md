@@ -2,15 +2,15 @@
 
 Bu proje, şehir simülasyonu ve yönetimi için geliştirilmiş kapsamlı bir SQL veritabanı sistemidir.
 
-## 📋 Proje Açıklaması
+##  Proje Açıklaması
 
 Şehir Simülasyon Yönetim Sistemi, modern bir şehrin çeşitli bileşenlerini ve hizmetlerini yönetmek için tasarlanmış bir veritabanı sistemidir. Bu sistem şehir planlaması, altyapı yönetimi ve vatandaş hizmetlerini kapsamlı bir şekilde yönetmek için kullanılabilir.
 
-## 🏗️ Veritabanı Yapısı
+##  Veritabanı Yapısı
 
 Sistem aşağıdaki ana bileşenleri içerir:
 
-### 🚗 Ulaşım ve Trafik
+###  Ulaşım ve Trafik
 - **Otoparklar**: Şehirdeki otopark bilgileri ve kapasiteleri
 - **Araçlar**: Kayıtlı araç bilgileri
 - **TopluTaşımaAraçları**: Otobüs, metro vb. toplu taşıma araçları
@@ -19,36 +19,36 @@ Sistem aşağıdaki ana bileşenleri içerir:
 - **Rotalar**: Ulaşım rotaları
 - **TrafikCezaları**: Trafik ceza kayıtları
 
-### 🏥 Sağlık Sistemi
+###  Sağlık Sistemi
 - **Hastaneler**: Şehirdeki hastane bilgileri
 - **Hastalar**: Hasta kayıtları
 - **HastaKayıtları**: Hastane başvuru ve tedavi kayıtları
 
-### 🎓 Eğitim Sistemi
+###  Eğitim Sistemi
 - **Okullar**: Okul bilgileri (Binalar tablosu içinde)
 - **Öğrenciler**: Öğrenci kayıtları
 
-### 📚 Kültür ve Sosyal Hizmetler
+###  Kültür ve Sosyal Hizmetler
 - **Kütüphaneler**: Kütüphane bilgileri
 - **KütüphaneKullanıcıları**: Kütüphane üye kayıtları
 
-### 🏢 Şehir Yönetimi
+###  Şehir Yönetimi
 - **Şehirler**: Şehir bilgileri
 - **İlçeler**: İlçe bilgileri
 - **Binalar**: Şehirdeki bina kayıtları
 - **Çalışanlar**: Belediye çalışanları
 - **İşYerleri**: İş yeri kayıtları
 
-### 🛡️ Güvenlik
+###  Güvenlik
 - **SuçKayıtları**: Suç kayıtları ve güvenlik verileri
 
-### ⚡ Altyapı
+###  Altyapı
 - **AltyapıHizmetleri**: Su, elektrik, doğalgaz vb. altyapı hizmetleri
 
-## 📊 Views ve Raporlar
+##  Views ve Raporlar
 - **OtoparkUcretleri**: Otopark ücretlerinin hesaplanması için görünüm
 
-## 🖼️ Veritabanı Diyagramları
+##  Veritabanı Diyagramları
 
 ### Crowsfoot Notasyonu
 Veritabanındaki tablolar ve ilişkiler Crowsfoot notasyonu ile gösterilmiştir:
@@ -60,21 +60,21 @@ Genel veritabanı ilişkilerini gösteren ER diyagramı:
 
 ![ER Diagram](https://i.imgur.com/6OnRuP5.png)
 
-## 🚀 Kullanım
+##  Kullanım
 1. SQL Server Management Studio veya benzeri bir veritabanı yönetim aracında `Sehir Simulasyon Yonetim Sistemi.sql` dosyasını çalıştırın.
 2. Veritabanı ve tablolar otomatik olarak oluşturulacaktır.
 3. Sistem şehir simülasyonu ve yönetimi verilerini kaydetmek ve analiz etmek için hazır hale gelecektir.
 
-## 💻 Teknik Özellikler
+##  Teknik Özellikler
 - **Veritabanı**: Microsoft SQL Server
 - **Uyumluluk Seviyesi**: 160 (SQL Server 2019+)
 - **Karakter Kodlaması**: Türkçe karakterler desteklenir
 - **Veri Bütünlüğü**: Foreign key kısıtlamaları ile veri tutarlılığı sağlanır
 
-## 📝 Lisans
+##  Lisans
 Bu proje açık kaynak kodludur ve MIT lisansı altında dağıtılmaktadır.
 
-## 👨‍💻 Geliştirici
+##  Geliştirici
 Proje geliştirilme aşamasında olup, katkıda bulunmak isteyenler için açıktır.
 
 ---
